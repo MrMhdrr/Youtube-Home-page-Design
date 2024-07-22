@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+}
+p {
+  font-family: Roboto;
+}
+.video-title {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+}
+.views {
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  margin: 0;
+}
+.channel {
+  font-family: arial;
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  margin-left: 25px;
+}
+.text {
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 22px;
+}
+.mylogo {
+  position: fixed;
+  bottom: 685px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.apple-text {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.span-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
