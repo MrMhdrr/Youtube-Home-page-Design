@@ -46,6 +46,23 @@ p {
   row-gap: 50px;
 }
 
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 /*Videos times*/
 
 .thumbnail-row {
@@ -53,7 +70,6 @@ p {
   cursor: pointer;
 }
 .video-time {
-  font-family: Roboto, arial;
   background-color: black;
   color: white;
   position: absolute;
